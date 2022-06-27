@@ -1,0 +1,61 @@
+.new-expense {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 5%;
+  padding: 1rem 0;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.05)
+  );
+  border-radius: 15px;
+  height: auto;
+  font-weight: bolder;
+  color: #0fb37c;
+}
+
+.new-expense Button {
+  font-size: medium;
+}
+
+@media (min-width: 40rem) {
+  .new-expense {
+    height: 4rem;
+    width: 40%;
+    min-width: 32rem;
+    margin: 0 30%;
+    padding: 0 2%;
+  }
+
+  .new-expense form {
+    display: flex;
+    height: 3rem;
+    margin: 0 2%;
+  }
+
+  .new-expense .input {
+    width: 24%;
+    text-align: center;
+    margin: 0 0.1rem;
+  }
+
+  .new-expense .input input {
+    width: 95%;
+  }
+
+  .new-expense label {
+    font-size: medium;
+  }
+
+  .new-expense button {
+    font-size: medium;
+    width: 45%;
+  }
+
+  .new-expense-form__buttons {
+    height: 2rem;
+    width: 28%;
+    margin: 0.5rem 0;
+  }
+}

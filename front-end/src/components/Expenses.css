@@ -1,0 +1,41 @@
+.expenses-responsive {
+  margin: 1rem 5%;
+  padding: 0.5rem;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.05)
+  );
+  border-radius: 15px;
+}
+
+.expenses {
+  display: none;
+}
+
+@media (min-width: 40rem) {
+  .expenses-responsive {
+    display: none;
+  }
+
+  .expenses {
+    display: flex;
+    margin: 1rem 2.5%;
+    width: 95%;
+    height: 100%;
+  }
+
+  .year-and-chart {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    margin: 0.5rem 1% 0.5rem 6%;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.4)
+    );
+    border-radius: 15px;
+  }
+}

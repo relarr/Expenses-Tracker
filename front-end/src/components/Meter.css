@@ -1,0 +1,58 @@
+.meter {
+  height: 100%;
+  width: 8%;
+  padding-top: 0.3rem;
+  display: inline-block;
+}
+
+.bar {
+  height: 110px;
+  width: 30%;
+  border-radius: 15px;
+  background-color: #bde3dc;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 35%;
+}
+
+.percentage-responsive {
+  background-color: #c8e676;
+  width: 100%;
+  transition: all 3s ease-out;
+}
+
+.meter label {
+  font-size: x-small;
+  font-weight: bolder;
+  padding: 0 0.17rem;
+  color: #0fb37c;
+}
+
+@media (min-width: 40rem) {
+  .meter {
+    height: 100%;
+    width: 100%;
+  }
+
+  .bar {
+    height: 1rem;
+    width: 90%;
+    border-radius: 15px;
+    background-color: #bde3dc;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 5%;
+  }
+
+  .percentage-responsive {
+    display: none;
+  }
+
+  .percentage {
+    background-color: #c8e676;
+    transition: all 3s ease-out;
+  }
+}

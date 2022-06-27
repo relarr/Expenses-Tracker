@@ -1,0 +1,43 @@
+.input {
+  text-align: right;
+  margin: 0.5rem;
+}
+
+.input label {
+  padding-right: 1rem;
+  color: whitesmoke;
+  font-size: large;
+  font-weight: bold;
+}
+
+.input input {
+  border: solid 1px #a4cf4e;
+  border-radius: 5px;
+  height: 1.5rem;
+  padding-left: 0.2rem;
+}
+
+.invalid {
+  text-align: right;
+  margin: 0;
+}
+
+.invalid label {
+  padding-right: 1rem;
+  color: whitesmoke;
+  font-size: large;
+  font-weight: bold;
+}
+
+.invalid input {
+  background-color: #faea07;
+  border-radius: 5px;
+}
+
+.invalid p {
+  text-align: right;
+  margin: 0.2rem;
+  color: #faea07;
+  font-size: small;
+  font-weight: bolder;
+}

@@ -1,0 +1,96 @@
+.expense {
+  position: relative;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  background: linear-gradient(to right bottom, #ffffffe6, #ffffff66);
+  border-radius: 10px;
+}
+
+.expense-date {
+  float: left;
+  padding: 0.5rem;
+  background-color: #6fc3c2cc;
+  border-radius: 5px;
+  width: 25%;
+  height: 5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.expense-date__month {
+  font-size: x-small;
+}
+
+.expense-date__day {
+  margin-top: 0.3rem;
+  font-size: x-large;
+}
+
+.expense-date__year {
+  margin-top: 0.3rem;
+  font-size: x-small;
+}
+
+.expense-amount {
+  float: right;
+  margin: 1.5rem 0 0;
+  padding: 1rem 0.2rem;
+  min-width: 23%;
+  background-color: #a0d699b3;
+  border-radius: 5px;
+  color: white;
+  font-size: x-small;
+}
+
+.expense-name {
+  margin-top: 2rem;
+  color: #0fb37c;
+  font-weight: bolder;
+  font-size: small;
+}
+
+@media (min-width: 40rem) {
+  .expense {
+    width: 18rem;
+    height: 6rem;
+    background: #f1f0f0;
+    background: #f7f8f7e5;
+    border-radius: 5px;
+    margin: 0.5rem;
+    padding: 0;
+  }
+
+  .expense-date {
+    height: 90%;
+    width: 22%;
+    margin: 2%;
+    padding: 1rem 0;
+  }
+
+  .expense-date__month {
+    font-size: small;
+  }
+
+  .expense-date__day {
+    margin-top: 0;
+    font-size: x-large;
+  }
+
+  .expense-date__year {
+    margin-top: 0;
+    font-size: small;
+  }
+
+  .expense-amount {
+    height: 50%;
+    width: 20%;
+    margin: 8% 2%;
+    font-size: small;
+  }
+
+  .expense-name {
+    font-size: small;
+  }
+}

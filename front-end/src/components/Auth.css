@@ -1,0 +1,41 @@
+.auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-form {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.1)
+  );
+  border-radius: 15px;
+  color: whitesmoke;
+}
+
+.auth-form h5 {
+  text-align: right;
+  margin: 0.5rem;
+  color: #faea07;
+  font-size: small;
+  font-weight: bolder;
+}
+
+.auth-switch {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.auth-switch h3 {
+  color: whitesmoke;
+}
+
+@media (min-width: 60rem) {
+  .auth-form {
+    margin-top: 5rem;
+  }
+}

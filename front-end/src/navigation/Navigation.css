@@ -1,0 +1,108 @@
+.navigation {
+  position: relative;
+  margin: 1rem 3%;
+  height: 4rem;
+  width: 94%;
+  border-radius: 10px;
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.2)
+  );
+}
+
+.navigation-burger {
+  float: left;
+}
+
+.navigation-burger button {
+  margin: 0.5rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.navigation-burger span {
+  display: block;
+  width: 2.5rem;
+  height: 10px;
+  border-radius: 15px;
+  margin: 0.3rem 0.5rem;
+  background: #82d669;
+}
+
+.navigation-burger span:hover {
+  background: #d3f565;
+}
+
+.navigation-title h2 {
+  margin: 0.5rem;
+  padding: 1.3rem 0;
+  color: white;
+}
+
+.navigation-right {
+  display: none;
+}
+
+.navigation-drawer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.navigation-drawer a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+.navigation-drawer a:hover {
+  color: #d3f565;
+}
+
+@media (min-width: 40rem) {
+  .navigation {
+    width: 98%;
+    margin: 1rem 1%;
+  }
+
+  .navigation-burger {
+    display: none;
+  }
+
+  .navigation-title {
+    display: inline-block;
+    margin: 1.2rem;
+    margin-left: 10rem;
+    font-size: medium;
+    color: whitesmoke;
+  }
+
+  .navigation-title h2 {
+    padding: initial;
+  }
+
+  .navigation-right {
+    display: block;
+    float: right;
+    margin: 1.5rem 3rem;
+  }
+
+  .navigation-right a {
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+  }
+
+  .navigation-right a:hover {
+    color: #d3f565;
+  }
+}
